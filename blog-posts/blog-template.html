@@ -2,33 +2,67 @@
 <html>
 <head>
   <title>My DBC Journey</title>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" type="text/css" href="../stylesheets/blog-stylesheet.css">
 </head>
 <body>
-  <!-- Header -->
-  <div>
-    <img src="../imgs/gsbusiness63.png">
-    <h1>Ronald Chacon</h1>
-    <p>My DBC Journey</p>
-    <hr>
+  <div class="header">
+      <img src="../imgs/gsbusiness63.png" class="logo_img">
   </div>
   <!-- Blog Post -->
-  <div>
-    <h2>Blog Post Title</h2>
-    <p>August 26, 2014</p>
-    <p>Lorem ipsum dolor sit amet, nihil ridens necessitatibus ne vel, et vel probo nostrud oportere. Ne elitr causae deterruisset vim, et sit legere ceteros. Ut sanctus intellegam eam. Habeo epicurei qui id, eu fierent principes dissentias pro. Eu sed quas omnium adversarium, solet populo perfecto te qui. Duo noster fabulas verterem ex, fugit vidisse in mea, eos in fierent quaerendum disputando. <br>
-    Te sed delenit imperdiet accommodare, et pri tempor adipiscing. Ei vis homero omittantur, vix id hinc vide definitiones. No cum tacimates atomorum prodesset, nam sonet nihil nusquam in, ex convenire honestatis neglegentur mel. Est at iusto lucilius conceptam, omnes veniam vix at.
-    </p>
-    <ul>
-      <li><img src="../imgs/Blogger.png"></li>
-      <li><img src="../imgs/Facebook.png"></li>
-      <li><img src="../imgs/GitHub.png"></li>
-      <li><img src="../imgs/GooglePlus.png"></li>
-      <li><img src="../imgs/LinkedIn.png"></li>
-      <li><img src="../imgs/Rss.png"></li>
-      <li><img src="../imgs/Tumblr.png"></li>
-      <li><img src="../imgs/Twitter.png"></li>
-    </ul>
+  <div class="blog">
+    <div class="blog_post">
+      <h2><!-- insert title here --></h2>
+      <p><!-- insert date here --></p>
+      <p><!-- insert content here --></p>
+    </div>
+    <div class="previous_post">
+      <h2>About Me</h2>
+      <p>I'm Ronald Chacon, and I'm doing Dev Bootcamp. I've been learning about web development on my own for about 1 year. This is where I'll be documenting my Phase 0 technical and cultural blog posts. </p>
+      <h2>Past Post's</h2>
+      <ul>
+        <li><a href="#"><!-- insert previous post here --></a></li>
+        <li><a href="#"><!-- insert previous post here --></a></li>
+        <li><a href="#"><!-- insert previous post here --></a></li>
+      </ul>
+    </div>
   </div>
+  <!-- footer -->
+  <div class="footer">
+    <div class="contact">
+      <h2>Contact Me</h2>
+      <form action="MAILTO:someone@example.com" method="post" enctype="text/plain">
+
+      <div class="f_container">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Name" size="50"><br>
+      </div>
+        <div class="f_container">
+          <label for="email">E-mail</label>
+          <input type="text" id="email" name="mail" placeholder="Email" size="50">
+        </div>
+
+        <div class="f_container">
+          <label for="comment">Comment</label>
+          <textarea id="comment "name="comment" placeholder="Comment" rows="10" cols="50"></textarea>
+        </div>
+
+        <div class="f_container">
+          <input type="submit" value="Submit" class="btn">
+        </div>
+      </form>
+    </div>
+    <div class="blog_social">
+      <h2>Social Media</h2>
+      <ul class="social_nav">
+        <li><a href="#"><img src="../imgs/Facebook.png"></a></li>
+        <li><a href="#"><img src="../imgs/LinkedIn.png"></a></li>
+        <li><a href="#"><img src="../imgs/GooglePlus.png"></a></li>
+        <li><a href="#"><img src="../imgs/GitHub.png"></a></li>
+        <li><a href="#"><img src="../imgs/Rss.png"></a></li>
+      </ul>
+    </div>
+  </div>
+
 </body>
 </html>
