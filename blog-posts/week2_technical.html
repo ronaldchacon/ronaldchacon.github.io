@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My DBC Journey</title>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="../stylesheets/blog-stylesheet.css">
+</head>
+<body>
+  <div class="header">
+      <img src="../imgs/gsbusiness63.png" class="logo_img">
+  </div>
+  <!-- Blog Post -->
+  <div class="blog">
+    <div class="blog_post">
+      <h2>CSS Display Battle</h2>
+      <p>September 1, 2014</p>
+      <h3>Block vs. Inline vs. Inline-Block</h3>
+      <p>
+      <ul>
+        <li style="list-style-type: none; font-size:20px; font-weight:bold;">Block</li>
+        <ul>
+          <li>A number of elements are set to block by the browser UA stylesheet. They are usually container elements, like div, section, and ul. Also text "blocks" like p and h1. Block level elements do not sit inline but break past them. By default (without setting a width) they take up as much horizontal space as they can. <img src="http://cdn.css-tricks.com/wp-content/uploads/2011/09/block.png"></li>
+        </ul>
+      </ul>
+      <p>
+
+      <p>
+      <ul>
+        <li style="list-style-type: none; font-size:20px; font-weight:bold;">Inline</li>
+        <ul>
+          <li>The default value for elements. Think of elements like span, em, or b and how wrapping text in those elements within a string of text doesn't break the flow of the text. <img src="http://cdn.css-tricks.com/wp-content/uploads/2011/09/inline-element.png"></li><br/>
+
+          <li>An inline element will accept margin and padding, but the element still sits inline as you might expect. Margin and padding will only push other elements horizontally away, not vertically. <img src="http://cdn.css-tricks.com/wp-content/uploads/2011/09/inlinepadding.png" style="display:block;"></li><br/>
+
+          <li>An inline element will not accept height and width. It will just ignore it.</li>
+        </ul>
+      </ul>
+      </p>
+
+      <p>
+      <ul>
+        <li style="list-style-type: none; font-size:20px; font-weight:bold;">Inline-Block</li>
+        <ul>
+          <li>An element set to inline-block is very similar to inline in that it will set inline with the natural flow of text (on the "baseline"). The difference is that you are able to set a width and height which will be respected. <img src="http://cdn.css-tricks.com/wp-content/uploads/2011/09/inline-block.png"></li>
+        </ul>
+      </ul>
+      </p>
+    </div>
+    <div class="previous_post">
+      <h2>About Me</h2>
+      <p>I'm Ronald Chacon, and I'm doing Dev Bootcamp. I've been learning about web development on my own for about 1 year. This is where I'll be documenting my Phase 0 technical and cultural blog posts. </p>
+      <h2>Past Post's</h2>
+      <ul>
+        <li><a href="/c1-chefs-kitchen.html">c1-chefs-kitchen</a></li>
+        <li><a href="/t1-compare-websites.html">t1-compare-websites</a></li>
+        <li><a href="#"><!-- insert previous post here --></a></li>
+      </ul>
+    </div>
+  </div>
+  <!-- footer -->
+  <div class="footer">
+    <div class="contact">
+      <h2>Contact Me</h2>
+      <form action="MAILTO:someone@example.com" method="post" enctype="text/plain">
+
+      <div class="f_container">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Name" size="50"><br>
+      </div>
+        <div class="f_container">
+          <label for="email">E-mail</label>
+          <input type="text" id="email" name="mail" placeholder="Email" size="50">
+        </div>
+
+        <div class="f_container">
+          <label for="comment">Comment</label>
+          <textarea id="comment "name="comment" placeholder="Comment" rows="10" cols="50"></textarea>
+        </div>
+
+        <div class="f_container">
+          <input type="submit" value="Submit" class="btn">
+        </div>
+      </form>
+    </div>
+    <div class="blog_social">
+      <h2>Social Media</h2>
+      <ul class="social_nav">
+        <li><a href="#"><img src="../imgs/Facebook.png"></a></li>
+        <li><a href="#"><img src="../imgs/LinkedIn.png"></a></li>
+        <li><a href="#"><img src="../imgs/GooglePlus.png"></a></li>
+        <li><a href="#"><img src="../imgs/GitHub.png"></a></li>
+        <li><a href="#"><img src="../imgs/Rss.png"></a></li>
+      </ul>
+    </div>
+  </div>
+
+</body>
+</html>
