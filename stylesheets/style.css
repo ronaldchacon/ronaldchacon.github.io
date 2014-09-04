@@ -207,7 +207,14 @@ input {
   transition-duration: 1s;
   margin-top:40px;
   padding:0 80px;
+  pointer-events:none;
 }
 input:checked + .content {
   opacity: 1;
+  z-index: 1;
 }
+
+input:checked + .content a {
+  pointer-events: all;
+}
+
