@@ -29,6 +29,7 @@ html, body {
   font-size: 1.3em;
   border-left: white 1px solid;
   padding: 18px 18px 18px 20px;
+  margin-left: -3px;
 }
 
 #nav-bar nav a:hover {
