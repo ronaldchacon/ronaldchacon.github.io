@@ -164,4 +164,48 @@ html, body {
   text-decoration: none;
 }
 
+.blog{
+  background-color: #fff;
+  width:100%;
+  min-height: 700px;
+  float: left;
+  padding: 40px 80px;
+  margin-top:61px;
+  text-align: center;
+}
 
+.blog nav label {
+  color: #000;
+  text-decoration: none;
+  font-size: 1.3em;
+  border: black 1px solid;
+  border-radius: 100px;
+  padding: 18px 18px 18px 20px;
+}
+
+.blog nav a:hover {
+  color: #000;
+  background-color: #4C4C4E;
+  text-decoration: none;
+  padding: 18px 20px 18px 20px;
+}
+
+.last2 {
+  border-right: white 1px solid;
+  padding: 18px 40px 18px 20px;
+}
+
+input {
+  display: none;
+}
+
+.content {
+  position: absolute;
+  opacity: 0;
+  transition-duration: 1s;
+  margin-top:40px;
+  padding:0 80px;
+}
+input:checked + .content {
+  opacity: 1;
+}
