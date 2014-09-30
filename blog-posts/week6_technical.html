@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My DBC Journey</title>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="../stylesheets/blog-stylesheet.css">
+</head>
+<body>
+  <div class="header">
+      <img src="../imgs/gsbusiness63.png" class="logo_img">
+  </div>
+  <!-- Blog Post -->
+  <div class="blog">
+    <div class="blog_post">
+      <h2>Ruby's Variable Scope</h2>
+      <p>September 29th, 2014</p>
+      <table style="border:1px black solid">
+        <thead>
+          <th>Variable Begins With</th>
+          <th>Variable Scope</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td><code>$</code></td>
+            <td>A Global Variable</td>
+          </tr>
+          <tr>
+            <td><code>@</code></td>
+            <td>An instance variable</td>
+          </tr>
+          <tr>
+            <td><code>[a-z] or _</code></td>
+            <td>A local variable</td>
+          </tr>
+          <tr>
+            <td><code>[A-Z]</code></td>
+            <td>A constant</td>
+          </tr>
+          <tr>
+            <td><code>@@</code></td>
+            <td>A class variable</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>Ruby Local Variables</h3>
+      <p>Local variables are local to the code construct in which they are declared. For example, a local variable declared in a method or within a loop cannot be accessed outside of that loop or method. Local variable names must begin with either an underscore or a lower case letter.</p>
+      <p><code>loop_counter = 10; _loop_counter = 20</code></p>
+
+      <h3>Ruby Global Variables</h3>
+      <p>Global variables in Ruby are accessible from anywhere in the Ruby program, regardless of where they are declared. Global variable names are prefixed with a dollar sign ($).</p>
+      <p><code>$welcome = "Welcome to Ruby Essentials"</code></p>
+
+      <h3>Ruby Class Variables</h3>
+      <p>A class variable is a variable that is shared amongst all instances of a class. This means that only one variable value exists for all objects instantiated from this class. This means that if one object instance changes the value of the variable, that new value will essentially change for all other object instances.
+      Another way of thinking of thinking of class variables is as global variables within the context of a single class.
+      Class variables are declared by prefixing the variable name with two @ characters (@@). Class variables must be initialized at creation time.</p>
+      <p><code>@@total = 0</code></p>
+
+      <h3>Ruby Instance Variables</h3>
+      <p>Instance variables are similar to Class variables except that their values are local to specific instances of an object. For example if a class contains an instance variable called @total, if one instance of the object changes the current value of @total the change is local to only the object that made the change. Other objects of the same class have their own local copies of the variable which are independent of changes made in any other objects. Instance variables are declared in Ruby by prefixing the variable name with a single @ sign</p>
+      <p><code>@total = 10</code></p>
+
+      <h3>Ruby Constant Scope</h3>
+      <p>Ruby constants are values which, once assigned a value, should not be changed. I say should because Ruby differs from most programming languages in that it allows a constant value to be changed after it has been declared, although the interpreter will protest slightly with a warning message. Constants declared within a class or module are available anywhere within the context of that class or module. Constants declared outside of a class or module are assigned global scope.</p>
+    </div>
+    <div class="previous_post">
+      <h2>About Me</h2>
+      <p>I'm Ronald Chacon, and I'm doing Dev Bootcamp. I've been learning about web development on my own for about 1 year. This is where I'll be documenting my Phase 0 technical and cultural blog posts. </p>
+      <h2>Past Post's</h2>
+      <ul>
+        <li><a href="#"><!-- insert previous post here --></a></li>
+        <li><a href="#"><!-- insert previous post here --></a></li>
+        <li><a href="#"><!-- insert previous post here --></a></li>
+      </ul>
+    </div>
+  </div>
+  <!-- footer -->
+  <div class="footer">
+    <div class="contact">
+      <h2>Contact Me</h2>
+      <form action="MAILTO:someone@example.com" method="post" enctype="text/plain">
+
+      <div class="f_container">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Name" size="50"><br>
+      </div>
+        <div class="f_container">
+          <label for="email">E-mail</label>
+          <input type="text" id="email" name="mail" placeholder="Email" size="50">
+        </div>
+
+        <div class="f_container">
+          <label for="comment">Comment</label>
+          <textarea id="comment "name="comment" placeholder="Comment" rows="10" cols="50"></textarea>
+        </div>
+
+        <div class="f_container">
+          <input type="submit" value="Submit" class="btn">
+        </div>
+      </form>
+    </div>
+    <div class="blog_social">
+      <h2>Social Media</h2>
+      <ul class="social_nav">
+        <li><a href="#"><img src="../imgs/Facebook.png"></a></li>
+        <li><a href="#"><img src="../imgs/LinkedIn.png"></a></li>
+        <li><a href="#"><img src="../imgs/GooglePlus.png"></a></li>
+        <li><a href="#"><img src="../imgs/GitHub.png"></a></li>
+        <li><a href="#"><img src="../imgs/Rss.png"></a></li>
+      </ul>
+    </div>
+  </div>
+
+</body>
+</html>
