@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My DBC Journey</title>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="../stylesheets/blog-stylesheet.css">
+</head>
+<body>
+  <div class="header">
+      <img src="../imgs/gsbusiness63.png" class="logo_img">
+  </div>
+  <!-- Blog Post -->
+  <div class="blog">
+    <div class="blog_post">
+      <h2>SQL vs NoSQL</h2>
+      <p>October 10, 2014</p>
+
+      <h3>Database Models</h3>
+      <p>Each database system implements a different database model to logically structure the data that is being managed. These models are the first step and the biggest determiner of how a database application will work and handle the information it deals with.</p>
+      <p>There are quite a few different types of database models which clearly and strictly provide the means of structuring the data, with most popular probably being the Relational Model.</p>
+      <p>Recently, a series of different systems and applications called NoSQL databases started to gain popularity with their promise of solving these problems and offering some very interesting additional functionality. By eradicating the strictly structured data keeping style defined within the relational model, these DB systems work by offering a much more freely shaped way of working with information, thus providing a great deal of flexibility and ease -- despite the fact that they come with their own problems, some serious considering the important and indispensable nature of data.</p>
+
+      <h3>The Relational Model</h3>
+      <p>The relational model offers a very mathematically-adapt way of structuring, keeping, and using the data. It expands the earlier designs of flat model and network model by introducing means of relations. Relations bring the benefits of group-keeping the data as constrained collections whereby data-tables, containing the information in a structured way (a Person's name and address), relates all the input by assigning values to attributes (a Person's ID number).</p>
+
+      <h3>The Model-less (NoSQL) Approach</h3>
+      <p>The NoSQL way of structuring the data consists of getting rid of these constraints, hence liberating the means of keeping, querying, and using information. NoSQL databases, by using an unstructured (or structured-on-the-go) kind of approach, aim to eliminate the limitations of strict relations, and offer many different types of ways to keep and work with the data for specific use cases efficiently (e.g. full-text document storage).</p>
+
+      <h3>Popular Database Management Systems</h3><br/>
+      <h4>Relational Database Management Systems</h4>
+      <ul>
+        <li>SQLite: A very powerful, embedded relational database management system.
+        <li>MySQL: The most popular and commonly used RDBMS.</li>
+        <li>PostgreSQL: The most advanced, SQL-compliant and open-source objective-RDBMS.</li>
+      </ul>
+      <h4>NoSQL Database Systems</h4>
+      <ul>
+        <li>MongoDB: These document stores keep each data, together, as a single collection (i.e. document) in the database. These documents can be represented as singular data objects, similar to JSON and still be quires depending on attributes.</li>
+      </ul>
+      <p><strong>NOTE</strong>NoSQL databases do not have a common way to query the data (i.e. similar to SQL of relational databases) and each solution provides its own query system.</p>
+
+      <h3>A Comparison of SQL and No-SQL Database Management Systems</h3>
+      <ul>
+        <li>Structure and type of data being kept: SQL/Relational databases require a structure with defined attributes to hold the data, unlike NoSQL databases which usually allow free-flow operations.</li><br/>
+        <li>Querying: Regardless of their licences, relational databases all implement the SQL standard to a certain degree and thus, they can be queried using the Structured Query Language (SQL). NoSQL databases, on the other hand, each implement a unique way to work with the data they manage.</li><br/>
+        <li>Scaling: Both solutions are easy to scale vertically (i.e. by increasing system resources). However, being more modern (and simpler) applications, NoSQL solutions usually offer much easier means to scale horizontally (i.e. by creating a cluster of multiple machines).</li><br/>
+        <li>Reliability: When it comes to data reliability and safe guarantee of performed transactions, SQL databases are still the better bet.</li><br/><li>Support: Relational database management systems have decades long history. They are extremely popular and it is very easy to find both free and paid support. If an issue arises, it is therefore much easier to solve than recently-popular NoSQL databases -- especially if said solution is complex in nature (e.g. MongoDB).</li><br/>
+        <li>Complex data keeping and querying needs: By nature, relational databases are the go-to solution for complex querying and data keeping needs. They are much more efficient and excel in this domain.</li><br/>
+      </ul>
+    </div>
+    <div class="previous_post">
+      <h2>About Me</h2>
+      <p>I'm Ronald Chacon, and I'm doing Dev Bootcamp. I've been learning about web development on my own for about 1 year. This is where I'll be documenting my Phase 0 technical and cultural blog posts. </p>
+      <h2>Past Post's</h2>
+      <ul>
+        <li><a href="#"><!-- insert previous post here --></a></li>
+        <li><a href="#"><!-- insert previous post here --></a></li>
+        <li><a href="#"><!-- insert previous post here --></a></li>
+      </ul>
+    </div>
+  </div>
+  <!-- footer -->
+  <div class="footer">
+    <div class="contact">
+      <h2>Contact Me</h2>
+      <form action="MAILTO:someone@example.com" method="post" enctype="text/plain">
+
+      <div class="f_container">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Name" size="50"><br>
+      </div>
+        <div class="f_container">
+          <label for="email">E-mail</label>
+          <input type="text" id="email" name="mail" placeholder="Email" size="50">
+        </div>
+
+        <div class="f_container">
+          <label for="comment">Comment</label>
+          <textarea id="comment "name="comment" placeholder="Comment" rows="10" cols="50"></textarea>
+        </div>
+
+        <div class="f_container">
+          <input type="submit" value="Submit" class="btn">
+        </div>
+      </form>
+    </div>
+    <div class="blog_social">
+      <h2>Social Media</h2>
+      <ul class="social_nav">
+        <li><a href="#"><img src="../imgs/Facebook.png"></a></li>
+        <li><a href="#"><img src="../imgs/LinkedIn.png"></a></li>
+        <li><a href="#"><img src="../imgs/GooglePlus.png"></a></li>
+        <li><a href="#"><img src="../imgs/GitHub.png"></a></li>
+        <li><a href="#"><img src="../imgs/Rss.png"></a></li>
+      </ul>
+    </div>
+  </div>
+
+</body>
+</html>
