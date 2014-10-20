@@ -1,72 +1,151 @@
 <!DOCTYPE html>
-<html>
+<!--[if IE 9]><html class="lt-ie10" lang="en" > <![endif]-->
+<html class="no-js" lang="en">
+
 <head>
-  <title>Ronald Chacon</title>
-  <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" type="text/css" href="stylesheets/font-awesome.min.css">
-  <link rel="stylesheet" type="text/css" href="stylesheets/reset.css">
-  <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+    <meta charset="utf-8">
+    <!-- If you delete this meta tag World War Z will become a reality -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ronald Chacon</title>
+
+    <!-- If you are using the CSS version, only link these 2 files, you may add app.css to use for your overrides if you like -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+
+    <script src="js/vendor/modernizr.js"></script>
+
 </head>
+
 <body>
-  <div id="nav-bar">
-    <nav>
-      <a href="#about">About Me</a>
-      <a href="#project">Projects</a>
-      <a href="#contact">Contact</a>
-      <a href="blog-posts/blog-index.html" class="last">Blog</a>
-    </nav>
-  </div>
+    <div class="row">
+        <div class="fixed">
+            <nav class="top-bar" data-topbar role="navigation">
+                <ul class="title-area">
+                    <li class="name">
+                        <h1><a href="#">Ronald Chacon</a>
+                        </h1>
+                    </li>
+                    <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+                    <li class="toggle-topbar menu-icon">
+                        <a href="#">
+                            <span>Menu</span>
+                        </a>
+                    </li>
+                </ul>
 
-  <div id="hero">
-    <div class="container">
-      <h2>Ronald Chacon</h2>
-      <h3>Web Designer | Developer | Ruby Ninja</h3>
+                <section class="top-bar-section">
+                    <!-- Right Nav Section -->
+                    <ul class="right">
+                        <li class="active"><a href="#">Home</a>
+                        </li>
+                        <li><a href="#about-me">About Me</a>
+                        </li>
+                        <li><a href="#projects">Projects</a>
+                        </li>
+                        <li><a href="#contact-me">Contact</a>
+                        </li>
+                        <li><a href="blog-posts/blog-index.html">Blog</a>
+                        </li>
+                    </ul>
+            </nav>
+        </div>
     </div>
-  </div>
 
-  <div id="about">
-    <a id="about"></a>
-    <h2>About Me</h2>
-    <p>I'm a 26 year old web developer from the Silicon Valley (San Francisco) who is currently studying at Dev Bootcamp.
-    </p><br>
-    <p>
-    My passion is all about creating real elegant looking websites. Always keeping it clean and simple with that added functionally of user interaction you would like to see.
-    </p><br>
-    <p>
-    If you would like to connect with me, then be sure to find me on Twitter, Facebook, Google+, LinkedIn and GitHub.</p>
-  </div>
-    <a id="project"></a>
-  <div id="projects">
-    <a id="project"></a>
-    <h2>Projects</h2>
-    <ul>
-      <li><img src="http://placekitten.com/g/360/240"/></li>
-      <li><img src="http://placekitten.com/g/360/240"/></li>
-      <li><img src="http://placekitten.com/g/360/240"/></li>
-      <li><img src="http://placekitten.com/g/360/240"/></li>
-      <li><img src="http://placekitten.com/g/360/240"/></li>
-      <li><img src="http://placekitten.com/g/360/240"/></li>
-    </ul>
-  </div>
-
-
-
-  <div id="social">
-    <nav>
-      <a href="http://github.com/ronaldchacon"><i class="fa fa-github fa-2x"></i></a>
-      <a href="https://twitter.com/ronaldachacon"><i class="fa fa-facebook fa-2x"></i></a>
-      <a href="https://twitter.com/ronaldachacon"><i class="fa fa-twitter fa-2x"></i></a>
-      <a href="https://www.linkedin.com/in/ronaldchacon"><i class="fa fa-linkedin fa-2x"></i></a>
-    </nav>
-  </div>
-
-  <div id="footer">
-      <a id="contact"></a>
-      <div class="contain">
-        <h4>WEB DEVELOPER, RUBY NINJA & TECH NERD </h3>
-        <h4>San Francisco Bay Area</h3>
-        <h4><a href="mailto:ronald@ronaldchacon.com">ronald@ronaldchacon.com</a></h3>
+    <div class="row full-width hero">
+        <div class="large-12 columns large-centered">
+            <h2>Ronald Chacon</h2>
+            <h2 class="subclass">Web Design | Developer | Ruby Ninja</h2>
+        </div>
     </div>
-  </div>
+    <hr>
+
+    <section id="about-me"></section>
+
+    <div class="row med-width">
+        <div class="large-12 columns">
+            <h2>About Me</h2>
+            <p>I'm a 26 year old web developer from the Silicon Valley (San Francisco) who is currently studying at Dev Bootcamp. My passion is all about creating real elegant looking websites. Always keeping it clean and simple with that added functionally of user interaction you would like to see. If you would like to connect with me, then be sure to find me on Twitter, Facebook, Google+, LinkedIn and GitHub.</p>
+        </div>
+    </div>
+
+    <section id="projects"></section>
+
+    <div class="row med-width">
+        <div class="large-12 columns">
+            <h2>Projects</h2>
+        </div>
+        <div class="large-4 columns">
+            <img src="http://placehold.it/400x300&text=[img]" />
+            <h4>This is a content section.</h4>
+            <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef.</p>
+        </div>
+
+        <div class="large-4 columns">
+            <img src="http://placehold.it/400x300&text=[img]" />
+            <h4>This is a content section.</h4>
+            <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef.</p>
+        </div>
+
+        <div class="large-4 columns">
+            <img src="http://placehold.it/400x300&text=[img]" />
+            <h4>This is a content section.</h4>
+            <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef.</p>
+        </div>
+    </div>
+
+    <section id="contact-me"></section>
+
+    <div class="row med-width">
+        <div class="large-12 columns">
+
+            <div class="panel">
+                <h4>Get in touch!</h4>
+
+                <div class="row">
+                    <div class="large-6 columns">
+                        <p>I would love to hear from you!
+                    </div>
+                    <div class="large-6 columns">
+                        <a href="mailto:ronald.chacon87@gmail.com" class="radius button right expand">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <footer class="row full-width footer">
+        <div class="large-12 columns">
+            <hr/>
+            <div class="row">
+                <div class="large-6 columns">
+                    <p>Ronald Chacon</p>
+                </div>
+                <div class="large-6 columns">
+                    <ul class="inline-list right">
+                        <li><a href="http://github.com/ronaldchacon"><i class="fa fa-github fa-2x"></i></a>
+                        </li>
+                        <li><a href="https://www.linkedin.com/in/ronaldchacon"><i class="fa fa-linkedin fa-2x"></i></a>
+                        </li>
+                        <li><a href="https://twitter.com/ronaldachacon"><i class="fa fa-facebook fa-2x"></i></a>
+                        </li>
+                        <li><a href="https://twitter.com/ronaldachacon"><i class="fa fa-twitter fa-2x"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script>
+    $(document).foundation();
+    </script>
 </body>
+
 </html>

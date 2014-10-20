@@ -1,20 +1,61 @@
 <!DOCTYPE html>
-<html>
+<!--[if IE 9]><html class="lt-ie10" lang="en" > <![endif]-->
+<html class="no-js" lang="en">
+
 <head>
-  <title>My DBC Journey</title>
-  <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" type="text/css" href="../stylesheets/blog-stylesheet.css">
+  <meta charset="utf-8">
+  <!-- If you delete this meta tag World War Z will become a reality -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog</title>
+  <!-- If you are using the CSS version, only link these 2 files, you may add app.css to use for your overrides if you like -->
+  <link rel="stylesheet" href="../css/normalize.css">
+  <link rel="stylesheet" href="../css/foundation.css">
+  <link rel="stylesheet" href="../css/blog.css">
+  <link rel="stylesheet" type="text/css" href="../css/font-awesome.min.css">
+
+  <script src="../js/vendor/modernizr.js"></script>
 </head>
+
 <body>
-  <div class="header">
-      <img src="../imgs/gsbusiness63.png" class="logo_img">
+  <div class="row">
+    <div class="fixed">
+      <nav class="top-bar" data-topbar role="navigation">
+        <ul class="title-area">
+          <li class="name">
+            <h1><a href="#">Ronald Chacon</a>
+            </h1>
+          </li>
+          <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+          <li class="toggle-topbar menu-icon">
+            <a href="#">
+              <span>Menu</span>
+            </a>
+          </li>
+        </ul>
+        <section class="top-bar-section">
+          <!-- Right Nav Section -->
+          <ul class="right">
+            <li><a href="../index.html">Home</a>
+            </li>
+            <li><a href="../index.html#about-me">About Me</a>
+            </li>
+            <li><a href="../index.html#projects">Projects</a>
+            </li>
+            <li><a href="../index.html#contact-me">Contact</a>
+            </li>
+            <li class="active"><a href="blog-index.html">Blog</a>
+            </li>
+          </ul>
+      </nav>
+    </div>
   </div>
-  <!-- Blog Post -->
-  <div class="blog">
-    <div class="blog_post">
-      <h2>Intellectual Property challenges</h2>
-      <p>September 18, 2014</p>
-      <h3>The issue</h3>
+  <hr/>
+  <div class="row">
+    <div class="large-12 large-centered columns" role="content">
+      <h3><a href="#">Intellectual Property challenges</a></h3>
+      <h6>Written by <a href="#">Ronald Chacon</a> on September 18, 2014.</h6>
+      <hr>
+      <h3 class="subheader">The issue</h3>
       <p>
       The recent flurry of patent buying and selling activity in the global tech sector illustrates dramatic changes in the way some of the biggest technology companies are approaching their intellectual property.
       </p>
@@ -24,62 +65,44 @@
       <p>
       An example of this is Yahoo suing Facebook, prior to Facebook's IPO.The accusation was based on IP. This led to a countersue by Facebook and Yahoo added more patents to their case.
       </p>
-      <h3>Patent Trolls and Complex IP</h3>
+      <h3 class="subheader">Patent Trolls and Complex IP</h3>
       <p>
       Such developments underline the increasingly complex global IP environment for tech companies. The rising threat of litigation, coupled with record numbers of patent filings around the world, means that it is more important than ever for IP departments to ensure that their companies products and technologies do not infringe third-party patents.
       </p>
       <p>Meanwhile, the threat of litigation is compounded by the activities of patent trolls. Patent Trolls are particularly prevalent in the tech sector, as reflected in CPA Global survey. Almost 50% of respondents identified NPEs as one of their biggest concerns over the next 12-18 months.</p>
-      <h3>What's Being Done?</h3>
+      <h3 class="subheader">What's Being Done?</h3>
       <p>To help companies cope with these new IP challenges, it is essential that they put in place an effective, well structured FTO search process. Many organisations may already have processes established, but they often do not have adequate resourcing to conduct the extensive searches required.</p>
       <p>Increasingly, they are turning to specialist external providers to help with the FTO process. Such providers can serve as a cost-effective extension to the in-house teams, providing the necessary bandwidth to undertake comprehensive FTO activity.</p>
     </div>
-    <div class="previous_post">
-      <h2>About Me</h2>
-      <p>I'm Ronald Chacon, and I'm doing Dev Bootcamp. I've been learning about web development on my own for about 1 year. This is where I'll be documenting my Phase 0 technical and cultural blog posts. </p>
-      <h2>Past Post's</h2>
-      <ul>
-        <li><a href="#"><!-- insert previous post here --></a></li>
-        <li><a href="#"><!-- insert previous post here --></a></li>
-        <li><a href="#"><!-- insert previous post here --></a></li>
-      </ul>
-    </div>
+    <div class="push"></div>
   </div>
-  <!-- footer -->
-  <div class="footer">
-    <div class="contact">
-      <h2>Contact Me</h2>
-      <form action="MAILTO:someone@example.com" method="post" enctype="text/plain">
-
-      <div class="f_container">
-        <label for="name">Name</label>
-        <input type="text" id="name" name="name" placeholder="Name" size="50"><br>
+    <footer class="row full-width footer">
+      <div class="large-12 columns">
+        <hr/>
+        <div class="row">
+          <div class="large-6 columns">
+            <p>Ronald Chacon</p>
+          </div>
+          <div class="large-6 columns">
+            <ul class="inline-list right">
+              <li><a href="http://github.com/ronaldchacon"><i class="fa fa-github fa-2x"></i></a>
+              </li>
+              <li><a href="https://www.linkedin.com/in/ronaldchacon"><i class="fa fa-linkedin fa-2x"></i></a>
+              </li>
+              <li><a href="https://twitter.com/ronaldachacon"><i class="fa fa-facebook fa-2x"></i></a>
+              </li>
+              <li><a href="https://twitter.com/ronaldachacon"><i class="fa fa-twitter fa-2x"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
-        <div class="f_container">
-          <label for="email">E-mail</label>
-          <input type="text" id="email" name="mail" placeholder="Email" size="50">
-        </div>
-
-        <div class="f_container">
-          <label for="comment">Comment</label>
-          <textarea id="comment "name="comment" placeholder="Comment" rows="10" cols="50"></textarea>
-        </div>
-
-        <div class="f_container">
-          <input type="submit" value="Submit" class="btn">
-        </div>
-      </form>
-    </div>
-    <div class="blog_social">
-      <h2>Social Media</h2>
-      <ul class="social_nav">
-        <li><a href="#"><img src="../imgs/Facebook.png"></a></li>
-        <li><a href="#"><img src="../imgs/LinkedIn.png"></a></li>
-        <li><a href="#"><img src="../imgs/GooglePlus.png"></a></li>
-        <li><a href="#"><img src="../imgs/GitHub.png"></a></li>
-        <li><a href="#"><img src="../imgs/Rss.png"></a></li>
-      </ul>
-    </div>
-  </div>
-
+    </footer>
+      <script src="../js/vendor/jquery.js"></script>
+      <script src="../js/foundation.min.js"></script>
+      <script>
+      $(document).foundation();
+      </script>
 </body>
+
 </html>

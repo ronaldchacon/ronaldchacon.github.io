@@ -1,81 +1,122 @@
 <!DOCTYPE html>
-<html>
+<!--[if IE 9]><html class="lt-ie10" lang="en" > <![endif]-->
+<html class="no-js" lang="en">
+
 <head>
-  <title>Ronald Chacon</title>
-  <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" type="text/css" href="../stylesheets/font-awesome.min.css">
-  <link rel="stylesheet" type="text/css" href="../stylesheets/reset.css">
-  <link rel="stylesheet" type="text/css" href="../stylesheets/style.css">
+  <meta charset="utf-8">
+  <!-- If you delete this meta tag World War Z will become a reality -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog</title>
+  <!-- If you are using the CSS version, only link these 2 files, you may add app.css to use for your overrides if you like -->
+  <link rel="stylesheet" href="../css/normalize.css">
+  <link rel="stylesheet" href="../css/foundation.css">
+  <link rel="stylesheet" href="../css/blog.css">
+  <link rel="stylesheet" type="text/css" href="../css/font-awesome.min.css">
+
+  <script src="../js/vendor/modernizr.js"></script>
 </head>
+
 <body>
-  <div id="nav-bar">
-    <nav>
-      <a href="../index.html">Home</a>
-      <a href="#about">About Me</a>
-      <a href="#project">Projects</a>
-      <a href="#contact">Contact</a>
-      <a href="#" class="last">Blog</a>
-    </nav>
-  </div>
-
-  <div class="blog">
-    <nav role='navigation'>
-      <label for="cultural">Cultural</label>
-      <label for="technical">Technical</label>
-      <label for="misc">Misc.</label>
-    </nav>
-
-    <input type="radio" id="cultural" name="nav" checked />
-      <div class="content" id="projects">
-        <ul>
-          <li><a href="c1-chefs-kitchen.html"><img src="http://dummyimage.com/160x65&text=Chefs Kitchen"/></a></li>
-          <li><a href="week3_cultural.html"><img src="http://dummyimage.com/160x65&text=My Thinking Style"/></a></li>
-          <li><a href="week4_cultural.html"><img src="http://dummyimage.com/160x65&text=IP Challenges"/></a></li>
-          <li><a href="week5_cultural.html"><img src="http://dummyimage.com/160x65&text=Paring and Feedback"/></a></li>
-          <li><a href="week6_cultural.html"><img src="http://dummyimage.com/160x65&text=My Thoughts on Stereotype Threats"/></a></li>
-          <li><a href="week7_cultural.html"><img src="http://dummyimage.com/160x65&text=Values and Me"/></a></li>
-          <li><a href="week8_cultural.html"><img src="http://dummyimage.com/160x65&text=A Conflict and Me"/></a></li>
+  <div class="row">
+    <div class="fixed">
+      <nav class="top-bar" data-topbar role="navigation">
+        <ul class="title-area">
+          <li class="name">
+            <h1><a href="#">Ronald Chacon</a>
+            </h1>
+          </li>
+          <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+          <li class="toggle-topbar menu-icon">
+            <a href="#">
+              <span>Menu</span>
+            </a>
+          </li>
         </ul>
-      </div>
-
-      <input type="radio" id="technical" name="nav"/>
-      <div class="content" id="projects">
-        <ul>
-          <li><a href="t1-compare-websites.html"><img src="http://dummyimage.com/160x65&text=Comparing Websites"/></a></li>
-          <li><a href="week2_technical.html"><img src="http://dummyimage.com/160x65&text=CSS Display Battle"/></a></li>
-          <li><a href="week3_technical.html"><img src="http://dummyimage.com/160x65&text=My Findings on Javascript"/></a></li>
-          <li><a href="week4_technical.html"><img src="http://dummyimage.com/160x65&text=Enumerable Map"/></a></li>
-          <li><a href="week5_technical.html"><img src="http://dummyimage.com/160x65&text=Instance Methods and Variables"/></a></li>
-          <li><a href="week6_technical.html"><img src="http://dummyimage.com/160x65&text=Ruby's Scope Variable"/></a></li>
-          <li><a href="week7_technical.html"><img src="http://dummyimage.com/160x65&text=Sql versus NoSql"/></a></li>
-          <li><a href="week8_technical.html"><img src="http://dummyimage.com/160x65&text=Recursion with Ruby"/></a></li>
-        </ul>
-      </div>
-
-      <input type="radio" id="misc" name="nav"/>
-      <div class="content" id="projects">
-        <ul>
-
-        </ul>
-      </div>
-  </div>
-
-  <div id="social">
-    <nav>
-      <a href="http://github.com/ronaldchacon"><i class="fa fa-github fa-2x"></i></a>
-      <a href="https://twitter.com/ronaldachacon"><i class="fa fa-facebook fa-2x"></i></a>
-      <a href="https://twitter.com/ronaldachacon"><i class="fa fa-twitter fa-2x"></i></a>
-      <a href="https://www.linkedin.com/in/ronaldchacon"><i class="fa fa-linkedin fa-2x"></i></a>
-    </nav>
-  </div>
-
-  <div id="footer">
-      <a id="contact"></a>
-      <div class="contain">
-        <h4>WEB DESIGNER, DEVELOPER & </h3>
-        <h4>San Francisco Bay Area</h3>
-        <h4><a href="mailto:ronald@ronaldchacon.com">ronald@ronaldchacon.com</a></h3>
+        <section class="top-bar-section">
+          <!-- Right Nav Section -->
+          <ul class="right">
+            <li><a href="../index.html">Home</a>
+            </li>
+            <li><a href="../index.html#about-me">About Me</a>
+            </li>
+            <li><a href="../index.html#projects">Projects</a>
+            </li>
+            <li><a href="../index.html#contact-me">Contact</a>
+            </li>
+            <li class="active"><a href="blog-posts/blog-index.html">Blog</a>
+            </li>
+          </ul>
+      </nav>
     </div>
   </div>
+  <hr/>
+  <div class="row">
+    <div class="large-12 large-centered columns" role="content">
+      <dl class="tabs" data-tab>
+        <dd class="active"><a href="#panel1">Technical</a></dd>
+        <dd><a href="#panel2">Cultural</a></dd>
+        <dd><a href="#panel3">GPS</a></dd>
+      </dl>
+      <div class="tabs-content">
+        <div class="content active" id="panel1">
+          <ul class="inline-list">
+            <li><a href="t1-compare-websites.html"><span class="label">Comparing Websites</span></a></li>
+            <li><a href="week2_technical.html"><span class="label">CSS Display Battle</span></a></li>
+            <li><a href="week3_technical.html"><span class="label">My Findings on Javascript</span></a></li>
+            <li><a href="week4_technical.html"><span class="label">Enumerable Map</span></a></li>
+            <li><a href="week5_technical.html"><span class="label">Instance Variables and Methods</span></a></li>
+            <li><a href="week6_technical.html"><span class="label">Ruby's Scope Variable</span></a></li>
+            <li><a href="week7_technical.html"><span class="label">SQL versus NoSQL</span></a></li>
+            <li><a href="week8_technical.html"><span class="label">Recursion with Ruby</span></a></li>
+        </ul>
+        </div>
+        <div class="content" id="panel2">
+          <ul class="inline-list">
+            <li><a href="c1-chefs-kitchen.html"><span class="label">Chef's Kitchen</span></a></li>
+            <li><a href="week3_cultural.html"><span class="label">My Thinking Style</span></a></li>
+            <li><a href="week4_cultural.html"><span class="label">IP Challenges</span></a></li>
+            <li><a href="week5_cultural.html"><span class="label">Pairing and Feedback</span></a></li>
+            <li><a href="week6_cultural.html"><span class="label">My Thoughts on Stereotype Threats</span></a></li>
+            <li><a href="week7_cultural.html"><span class="label">Values and Me</span></a></li>
+            <li><a href="week8_cultural.html"><span class="label">A Conflict and Me</span></a></li>
+        </ul>
+        </div>
+        <div class="content" id="panel3">
+          <ul class="inline-list">
+            <li><a href="../gps/gps1.1.html"><span class="label">GPS 1.1</span></a></li>
+        </ul>
+        </div>
+      </div>
+    </div>
+    <div class="push"></div>
+  </div>
+    <footer class="row full-width footer">
+      <div class="large-12 columns">
+        <hr/>
+        <div class="row">
+          <div class="large-6 columns">
+            <p>Ronald Chacon</p>
+          </div>
+          <div class="large-6 columns">
+            <ul class="inline-list right">
+              <li><a href="http://github.com/ronaldchacon"><i class="fa fa-github fa-2x"></i></a>
+              </li>
+              <li><a href="https://www.linkedin.com/in/ronaldchacon"><i class="fa fa-linkedin fa-2x"></i></a>
+              </li>
+              <li><a href="https://twitter.com/ronaldachacon"><i class="fa fa-facebook fa-2x"></i></a>
+              </li>
+              <li><a href="https://twitter.com/ronaldachacon"><i class="fa fa-twitter fa-2x"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+      <script src="../js/vendor/jquery.js"></script>
+      <script src="../js/foundation.min.js"></script>
+      <script>
+      $(document).foundation();
+      </script>
 </body>
+
 </html>
